@@ -1,0 +1,49 @@
+@media (max-width: 700px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .botao {
+    margin-top: 5px;
+    width: 300px;
+  }
+}
+@media (min-width: 1000px) {
+  .descricao {
+    width: 65%;
+  }
+}
+@media (max-width: 900px) {
+  .player {
+    margin-bottom: 15px;
+  }
+  .botoes {
+    margin-bottom: 30px;
+  }
+  #search {
+    padding-right: 55px;
+  }
+  .botoes {
+    margin-bottom: -50px;
+  }
+}
+
+@media (max-width: 700px) {
+  header .container {
+    flex-direction: row;
+  }
+  .logo {
+    font-size: 1.2rem;
+  }
+  
+@media (max-width: 460px) {
+  .botoes {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 390px) {
+  .botoes {
+    margin-bottom: 50px;
+  }
+}
